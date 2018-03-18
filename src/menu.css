@@ -1,0 +1,27 @@
+#menu {
+  background: black;
+  height: 50px;
+}
+
+#menu ul {
+  list-style-type: none;}
+
+#menu ul li {
+  float: left;
+  padding: 0 10px 0 10px;
+  height: 25px;
+  line-height: 25px;
+}
+
+#menu ul li a {
+  color: grey;
+}
+
+#menu ul li a.active {
+  color: white;
+}
+
+#menu ul li span.logo {
+  color: white;
+  font-size: 20px;
+}
